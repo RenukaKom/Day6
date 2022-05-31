@@ -1,10 +1,10 @@
 #!/bin/bash
-read -p "enter a number: " n
+read -p "enter a number: " m
 a=0;
-p=1;
-while [ $a -lt $n ]
+
+while [ $a -lt $m ];
 do
-	p=$(( 2**$n ));
-	a=`expr $a + 1`
+	p=$(( $m**2 ));
+	p=`expr + 1`
 done
-echo "table of power of 2: " $a
+echo "table of power of 2: " $p

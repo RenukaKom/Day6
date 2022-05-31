@@ -1,10 +1,10 @@
 #!/bin/bash
 read -p  "Select a number between 1 to 100: " n
-a=1;
-m=$n
-while [ $a -lt $m ]
+a=$n/2;
+
+while [ $n -lt $a ] && [ $n -gt $a ];
 do
-	echo $a;
-	a=`expr $a + 1`
+	echo $n;
+	n=`expr $n + 1`
 done
 

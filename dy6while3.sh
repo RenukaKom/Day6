@@ -1,6 +1,6 @@
 #!/bin/bash
 w=0;
-while [ $w -lt 12 ]
+while [ $w -lt 11 ]
 do
 	a=$(( RANDOM %2 + 1 ));
 	echo "random value is: $a"

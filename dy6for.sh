@@ -1,9 +1,9 @@
 #!/bin/bash
 echo "table of power of 2"
 read -p "Enter a number:" m
-n=0;
-for(( n=0; n<=2**$m; n++ ));
+
+for (( i=2; i!=0; i-- ));
 do
-        tab=$(( 2 * $n ));
-        echo " table of power of 2 is: $tab"
+        tab=$(( $m * $m ));
 done
+echo  $tab
